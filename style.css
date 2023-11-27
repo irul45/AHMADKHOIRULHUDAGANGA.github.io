@@ -70,14 +70,10 @@ li{
 }
 
 
-#DESTINASI H3{
-    
-    display: flex;
-    padding-left: 700px;
-    padding-top: 200px;
-    font-size:x-large;
-    
-    flex-direction: row;
+#DESTINASI h3{
+ text-align: center;
+ font-size: x-large;
+ padding-top: 100px;
     
 }
 
@@ -94,7 +90,7 @@ li{
 
 #DESTINASI img{
     text-align: center;
-    width: 80px;
+    width: 150px;
     margin-bottom: 200px;
     transition: all 0.5s;
 
@@ -103,12 +99,12 @@ li{
 width: 400px;
 transition: all 0.5s;
 }
-.p{
+/* .p{
     margin-bottom: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-}
+} */
 
 
 
@@ -116,13 +112,13 @@ transition: all 0.5s;
 #PROJECT h3{
     text-align: center;
     font-size: xx-large;
-    padding-top:220px;
+    padding-top:430px;
 }
 #PROJECT p{
     text-align: center;
     font-size: x-large;
 }
-#PROJECT aside img{
+#PROJECT img{
     width:450px;
     display: flex;
     flex-direction: column;
@@ -130,7 +126,7 @@ transition: all 0.5s;
     padding-left: 35%;
     transition: all 0.7s;
 }
-#PROJECT aside img:hover{
+#PROJECT img:hover{
     width:500px;
     filter: blur(0px);
     transition:all 0.7s;
@@ -166,22 +162,23 @@ margin: 65px;
  #KETERANGAN H3{
     padding-top: 150px;
  }
-#DESTINASI H3{
-   
-padding-left: 340px;
+#DESTINASI h3{
+    display: flex;
+    justify-content: center;
 }
 
 #DESTINASI img{
     width: 110px;
+    
 }
 
-#PROJECT aside img{
+#PROJECT img{
     padding-left: 30%;
     transition:all 0.7s;
     
 }
 
-#PROJECT aside img :hover{
+#PROJECT img :hover{
     
     filter: blur(0px);
     transition:all 0.7s;
@@ -205,11 +202,7 @@ padding-left: 340px;
     }    
 
     ul li a{
-        /* text-decoration: none;
-        list-style-type: none;
-        font-size: small;
-        color:blue ;
-        margin-left: 70px; */
+    
         font-size: x-small;
         
         
